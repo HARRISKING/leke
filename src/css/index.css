@@ -1,0 +1,262 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+p,h1,h2,h3,h4{
+  color: #fff;
+}
+
+/*第一部分：*/
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 100%;
+  height: 10%;
+  transition: all 0.6s;
+}
+.head-box{
+  width: 80%;
+    margin: 15px auto;
+}
+.head-box:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.head-left{
+  float: left;
+}
+.head-right{
+  float: right;
+  height: 40px;
+}
+
+.head-right >a{
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+  line-height: 40px;
+}
+
+.header:hover{
+  background-color: rgba(0,0,0,0.2);
+}
+
+
+.fir-box-1{
+  display: block;
+  margin-top: 5%;
+
+}
+.fir-box-2{
+  margin-top: 5%;
+}
+
+/*第二部分：*/
+.sec-box-words{
+  color: #fff;
+}
+
+.sec-box-prices{
+  margin-top: 10%;
+}
+
+.pri{
+  float: left;
+}
+.sec-box-prices:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.pri1{
+  width: 33%;
+}
+
+.pri2{
+  width: 33%;
+}
+
+.pri3{
+  width: 33%;
+}
+
+
+
+/*第三部分：*/
+
+.iphone{
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  z-index: 2;
+}
+
+.iphone>img{
+  width: 75%;
+}
+
+.erweima{
+  position: absolute;
+  top: 33%;
+  left: 55%;
+  z-index: 99;
+}
+
+.erweima >img{
+
+}
+
+.thir-word{
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  text-align: left;
+}
+.thir-word>h3{
+  margin-top: -25px;
+}
+.thir-word>h1{
+  margin-top: 5px;
+}
+
+.iphone .iphone-img{
+  position: absolute;
+  top: 13%;
+  left: 19.16%;
+  width: 57%;
+  display: none;
+}
+
+.iphone  .iphone-actice{
+  display: block;
+}
+
+
+/*第四部分：*/
+.box-all1{
+  width: 70%;
+  height: 60%;
+  position: absolute;
+  top: 10%;
+}
+.box-join{
+  height: 45%;
+  border: 1px solid rgba(0,0,0,0);
+  background-color: rgba(32,33,42,0.6);
+}
+.box-last{
+  height: 45%;
+  border: 1px solid rgba(0,0,0,0);
+  background-color: rgba(214, 71, 12,0.6);
+  margin-top: 7%;
+}
+.box-join:hover{
+  border: 1px solid rgba(0,0,0,0);
+  background-color: rgba(32,33,42,1);
+}
+.box-last:hover{
+  border: 1px solid rgba(0,0,0,0);
+  background-color: rgba(214, 71, 12,1);
+}
+.footer{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 20%;
+  vertical-align: middle;
+  background-color: rgba(32,33,42,1);
+
+}
+.footer >p{
+  font-size: 13px;
+}
+.footer >p:first-of-type{
+  margin-top: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*swiper*/
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /*background: #fff;*/
+
+     /*Center slide text vertically*/
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 10px 10px;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 195px;
+    left: 10%;
+    width: 100%;
+}
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: rgb(255, 78, 0);
+}
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+}
+.swiper-button-next, .swiper-button-prev {
+    top: 60%;
+}
+.swiper-container-vertical>.swiper-pagination-bullets {
+    top: 47%;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 20px;
+}
